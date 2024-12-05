@@ -2,7 +2,8 @@ const mongoose=require("mongoose");
 
 mongoose.connect("mongodb+srv://jaya:CLKKrZHVpi5gwDoj@cluster0.yeni3.mongodb.net/");
 
-const todoSchema=mongoose.Schema({
+const todoSchema=mongoose.Schema(
+    {
     title:String,
     description:String,
     completed:Boolean
@@ -10,6 +11,6 @@ const todoSchema=mongoose.Schema({
 
 const todo=mongoose.model('todos',todoSchema)
 
-module.exports={
+module.exports= {
     todo
 }
