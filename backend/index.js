@@ -17,7 +17,8 @@ app.post("/todo", async function (req, res) {
         return;
     }
 
-    await todo.create({
+    await todo.create(
+        {
         title: createPayLoad.data.title,  
         description: createPayLoad.data.description,
         completed: false
