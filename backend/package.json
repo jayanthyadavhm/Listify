@@ -10,6 +10,7 @@
   "author": "jayanth",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.0",
     "mogoose": "^0.0.1-security",
     "mongoose": "^7.0.0",
