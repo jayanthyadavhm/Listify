@@ -17,20 +17,6 @@ A full-stack Todo application built with the MERN stack (MongoDB, Express.js, Re
 - **Database**: MongoDB
 - **Authentication**: JWT
 
-## Project Structure
-
-```
-├── client/                 # Frontend React application
-│   ├── public/            # Public assets
-│   └── src/               # React source files
-│       ├── components/    # React components
-│       ├── store/         # Redux store configuration
-│       └── services/      # API services
-└── server/                # Backend Express application
-    ├── routes/           # API routes
-    ├── models/           # MongoDB models
-    └── middleware/       # Custom middleware
-```
 
 ## Setup Instructions
 
@@ -42,13 +28,13 @@ A full-stack Todo application built with the MERN stack (MongoDB, Express.js, Re
 
 2. Install backend dependencies:
    ```bash
-   cd server
+   cd backend
    npm install
    ```
 
 3. Install frontend dependencies:
    ```bash
-   cd ../client
+   cd ../frontend
    npm install
    ```
 
