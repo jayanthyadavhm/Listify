@@ -1,4 +1,4 @@
-# MERN Todo Application
+# Listify
 
 A full-stack Todo application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
